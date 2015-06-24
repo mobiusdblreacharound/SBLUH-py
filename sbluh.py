@@ -23,7 +23,7 @@ def console():
         elif stuff == "bloodCalc":
             bloodCalc.main(False)
         elif stuff == "sweepCalc":
-            unfin()
+            sweepCalc.calc()
         elif stuff == "playerData":
             unfin()
         elif stuff == "displayPlayerData":
