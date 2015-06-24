@@ -6,9 +6,9 @@ def main(x):
     sun = raw_input("Enter Sun sign: ")
     moon = raw_input("Enter Moon sign:")
     if x == False:
-        print "Your blood color is " + bloodCalc.find(sun, moon) + "."
+        print "Your blood color is " + find(sun, moon) + "."
     else:
-        return bloodCalc.find(sun, moon)
+        return find(sun, moon)
 
 def calculate(sign):
     data = sign.upper()
@@ -52,7 +52,7 @@ def calculate(sign):
 
 def find(sign1, sign2):
 
-    data = bloodCalc.calculate(sign1) + bloodCalc.calculate(sign2)
+    data = calculate(sign1) + calculate(sign2)
 
     if data == 2 or data == 3:
         return "Burgundy"
