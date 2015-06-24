@@ -17,7 +17,6 @@ def console():
             print "Enter help:<command> for information on \"command\"."
         elif stuff == "help:aspect":
             print "[u] Displays your Classpect (Class and Aspect)."
-            console()
         elif stuff == "aspect":
             unfin()
         elif stuff == "bloodCalc":
