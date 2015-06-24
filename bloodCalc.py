@@ -1,6 +1,15 @@
 def test():
     print "bloodCalc OK!"
 
+def main(x):
+    print "Valid signs are Aries, Taurus, Gemini, Cancer, Leo, Virgo,\n Libra, Scorpio, Sagittarius, Capricorn, Aquarius,and Pisces."
+    sun = raw_input("Enter Sun sign: ")
+    moon = raw_input("Enter Moon sign:")
+    if x == False:
+        print "Your blood color is " + bloodCalc.find(sun, moon) + "."
+    else:
+        return bloodCalc.find(sun, moon)
+
 def calculate(sign):
     data = sign.upper()
 
