@@ -20,7 +20,16 @@ def console():
         console()
     elif stuff == "aspect":
         unfin()
-    elif stuff == "bloodCalc"
+    elif stuff == "bloodCalc":
         bloodCalc.main(False)
+    elif stuff == "sweepCalc":
+        unfin()
+    elif stuff == "playerData":
+        unfin()
+    elif stuff == "displayPlayerData":
+        unfin()
+    else:
+        print "'" + stuff + "' is not a valid command. Use \"help\" for information."
+        console()
 
 console()
