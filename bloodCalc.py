@@ -2,6 +2,8 @@ def test():
     print "bloodCalc OK!"
 
 def main(x):
+    if x == True:
+        print "Blood Calculator\n\n"
     print "Valid signs are Aries, Taurus, Gemini, Cancer, Leo, Virgo,\n Libra, Scorpio, Sagittarius, Capricorn, Aquarius,and Pisces."
     sun = raw_input("Enter Sun sign: ")
     moon = raw_input("Enter Moon sign:")

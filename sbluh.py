@@ -5,6 +5,7 @@ import sweepCalc
 print "SBLUH CONSOLE"
 print "Python Edition"
 print
+init.main(True)
 print "run 'help' for commands."
 
 def unfin():
