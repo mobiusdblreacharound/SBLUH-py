@@ -18,8 +18,16 @@ def console():
             print "Enter help:<command> for information on \"command\"."
         elif stuff == "help:aspect":
             print "[u] Displays your Classpect (Class and Aspect)."
+        elif stuff == "help:bloodCalc":
+            print "information"
+        elif stuff == "help:sweepCalc":
+            print "information"
+        elif stuff == "help:playerData":
+            print "information"
+        elif stuff == "help:displayPlayerData":
+            print "information"
         elif stuff == "aspect":
-            unfin()
+            unfin() # Still gotta do this sometime, prioritizing help commands
         elif stuff == "bloodCalc":
             bloodCalc.main(False)
         elif stuff == "sweepCalc":
