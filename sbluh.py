@@ -4,6 +4,8 @@ import sweepCalc
 
 print "SBLUH CONSOLE"
 print "Python Edition"
+print
+print "run 'help' for commands."
 
 def unfin():
     print "I need to code this!"
@@ -19,13 +21,13 @@ def console():
         elif stuff == "help:aspect":
             print "[u] Displays your Classpect (Class and Aspect)."
         elif stuff == "help:bloodCalc":
-            print "information"
+            print "Displays your blood color as if you were a troll."
         elif stuff == "help:sweepCalc":
-            print "information"
+            print "Converts Years to Alternian Sweeps and vice versa."
         elif stuff == "help:playerData":
-            print "information"
+            print "So far it does nothing."
         elif stuff == "help:displayPlayerData":
-            print "information"
+            print "It doesn't exist yet."
         elif stuff == "aspect":
             unfin() # Still gotta do this sometime, prioritizing help commands
         elif stuff == "bloodCalc":
