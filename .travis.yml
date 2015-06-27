@@ -8,7 +8,6 @@ python:
   - "nightly"
 
 install:
-  - "pip install ."
-  - "pip install -r requirements.txt"
+ # empty
 
 script: python sbluh.py -b
