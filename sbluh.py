@@ -1,5 +1,6 @@
 import json
 import bloodCalc
+import init
 import sweepCalc
 
 print "SBLUH CONSOLE"
