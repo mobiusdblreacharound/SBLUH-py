@@ -1,4 +1,5 @@
 import json
+import aspect
 import bloodCalc
 import dpd
 import init
@@ -32,7 +33,7 @@ def console():
         elif stuff == "help:displayPlayerData":
             print "It doesn't exist yet."
         elif stuff == "aspect":
-            unfin() # Still gotta do this sometime, prioritizing help commands
+            aspect.main(False) # Still gotta do this sometime, prioritizing help commands
         elif stuff == "bloodCalc":
             bloodCalc.main(False)
         elif stuff == "sweepCalc":
