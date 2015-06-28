@@ -37,7 +37,7 @@ def console():
         elif stuff == "sweepCalc":
             sweepCalc.calc()
         elif stuff == "playerData":
-            unfin()
+            init.main(False)
         elif stuff == "displayPlayerData":
             unfin()
         else:
