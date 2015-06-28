@@ -1,5 +1,6 @@
 import json
 import bloodCalc
+import dpd
 import init
 import sweepCalc
 
@@ -39,7 +40,7 @@ def console():
         elif stuff == "playerData":
             init.main(False)
         elif stuff == "displayPlayerData":
-            unfin()
+            dpd.main()
         else:
             print "'" + stuff + "' is not a valid command. Use \"help\" for information."
 
