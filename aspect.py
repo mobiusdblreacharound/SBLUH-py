@@ -1,4 +1,6 @@
 def main(isInit):
+    print
+    print "Aspect calculator BETA (may be inaccurate to the original)"
     firstName = raw_input("Enter First Name: ")
     firstNameUpper = firstName.upper()
     print

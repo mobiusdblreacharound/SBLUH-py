@@ -5,7 +5,7 @@ import dpd
 import init
 import sweepCalc
 
-print "SBLUH CONSOLE"
+print "SBLUH CONSOLE v1.0.0"
 print "Python Edition"
 print
 init.main(True)
