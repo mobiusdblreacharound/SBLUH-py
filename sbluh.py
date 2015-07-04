@@ -33,7 +33,7 @@ def console():
         elif stuff == "help:displayPlayerData":
             print "It doesn't exist yet."
         elif stuff == "aspect":
-            aspect.main(False) # Still gotta do this sometime, prioritizing help commands
+            aspect.main(False)
         elif stuff == "bloodCalc":
             bloodCalc.main(False)
         elif stuff == "sweepCalc":

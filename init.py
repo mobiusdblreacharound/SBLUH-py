@@ -1,4 +1,5 @@
 import bloodCalc
+import aspect
 import json
 import os.path
 def main(init):
@@ -15,8 +16,7 @@ def main(init):
             print "Please enter your handle in the form of:"
             print "firstwordSecondword"
             unsaved_data["handle"] = raw_input("==> ")
-            # This is where I'd put my Classpect code.
-            # IF I HAD ANY.
+            unsaved_data["classpect"] = aspect.main(True)
             unsaved_data["bloodColor"] = bloodCalc.main(True)
             print "[log] " + str(unsaved_data)
             with open("save_data.json", "w") as saver:
@@ -31,7 +31,7 @@ def main(init):
         print
         print "Enter your handle. (E.X. chumHandle)"
         unsaved_data["handle"] = raw_input("==> ")
-        # I seriously should make that Classpect command.
+        unsaved_data["classpect"] = aspect.main(True)
         unsaved_data["bloodColor"] = bloodCalc.main(True)
         with open("save_data.json", "r+") as newfile:
             json.dump(unsaved_data, newfile)
